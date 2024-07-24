@@ -1,0 +1,68 @@
+body {
+  font-family: "Manrope", Courier, monospace;
+}
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  color: #262525;
+}
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.32px;
+  padding-top: 260px;
+}
+h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 1px;
+}
+p {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 61.47px;
+}
+img {
+  width: 600px;
+  height: 300px;
+}
+.image-fone {
+  width: 800px;
+  height: 500px;
+
+  background-image: url("../resources/image-fone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.image-fone-text-wrapper {
+  color: white;
+  font-size: 12px;
+  width: 600px;
+  padding-right: 250px;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.btn {
+  display: block;
+  border: 1px solid red;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: red;
+  background-color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: white;
+  background-color: red;
+}
